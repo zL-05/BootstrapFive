@@ -2,8 +2,29 @@ html,
 body{
     height: 100%;
     font-size: 1rem;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
-gradient{
+.gradient{
     background: rgb(255,34,0);
     background: linear-gradient(130deg, rgba(255,34,0,1) 0%, rgba(38,0,255,1) 88%);
+}
+.page-header{
+    margin-top: 6rem;
+    font-size: 1.25rem;
+    color:#fff
+
+}
+.feature{
+    color:#fff;
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li{
+    padding-left: 2rem;
+    background-image:url(img src="https://www.clipartkey.com/mpngs/m/23-237111_transparent-bowling-pin-clipart-bowling-icon.png");
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
 }

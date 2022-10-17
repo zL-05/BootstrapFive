@@ -6,10 +6,13 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">"
   </head>
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="https://th.bing.com/th/id/OIP.tYgKQaa5_0qJxYJlnODX9AHaG2?pid=ImgDet&rs=1" width="85px" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="https://th.bing.com/th/id/OIP.tYgKQaa5_0qJxYJlnODX9AHaG2?pid=ImgDet&rs=1" width="75px" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,13 +32,67 @@
     </div>
   </nav>
   <header class="page-header gradient">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">Text</div>
-        <div class="col-md-6"><img src="" alt=""></div>
+    <div class="container pt-3">
+      <div class="row align-item-center justify-content-center">
+        <div class="col-md-5">
+          <h2>Bowling is a very cool sport!</h2>
+          <p>Bowling is both a family-oriented sport and a competetion-style sport that is taken place at a lane.
+            The goal is to knock down as many pins in 10 frames as you can. The higher the score, the better it is.
+          </p>
+          <button type="button" class="btn btn-outline-success btn-lg">Read More</button>
+          <button type="button" class="btn btn-outline-warning btn-lg">Play Video</button>
+        </div>
+        <div class="col-md-5"><img src="https://media.istockphoto.com/photos/strike-ten-bowling-pins-and-bowling-ball-isolated-on-the-white-white-picture-id1358948178?b=1&k=20&m=1358948178&s=170667a&w=0&h=d3R7NVSCN2ab6dFNWNjv1fTQ3yaviR93wPDf8JWCwzI=" alt=""></div>
       </div>
     </div>
-  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,106.7C96,117,192,139,288,160C384,181,480,203,576,176C672,149,768,75,864,85.3C960,96,1056,192,1152,197.3C1248,203,1344,117,1392,74.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </header>
+  <header>
+    <section class="companies">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"><img src="https://bowling.zone/wp-content/uploads/2021/04/Bowling-Ball-Brands-Storm.png" width="100px"></div>
+          <div class="col-md-2"><img src="https://static.wikia.nocookie.net/logopedia/images/6/6e/7857r856r78.png/revision/latest?cb=20160221190527" width="100px"></div>
+          <div class="col-md-2"><img src="https://brunswickbowling.com/uploads/general/_1200x630_crop_center-center_82_none/seo_image_brunswick-main_1200x630.jpg?mtime=1543432238" width="100px"></div>
+          <div class="col-md-2"><img src="https://bowling.zone/wp-content/uploads/2021/04/Bowling-Ball-Brands-Ebonite.png" width="100px"></div>
+          <div class="col-md-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4OYRb67QJWtgt11QBNdpAJ9RitPTm_UsKX0ZUwgfFFV-IdL3Hb0hWI9ZA4BOYtlAeKzs&usqp=CAU" width="100px"></div>
+          <div class="col-md-2"><img src="data:image/png;base64,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" width="100px"></div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="feature gradient">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6"><img src="http://www.slate.com/content/dam/slate/articles/sports/sports_nut/2015/02/140205_SNUT_7-10-Split.jpg.CROP.promo-mediumlarge.jpg" width="150px"></div>
+          <div class="col-md-6"><h1 class="my-3">Bowling Tricks</h1></div>
+          <p>PUT SOMETHING HERE</p>
+          <ul>
+            <li>7-10 Split</li>
+            <li>Turkey (3 consec. strikes) or higher</li>
+            <li>1-2 or 1-3 Pocket</li>
+            <li>Perfect 300</li>
+          </ul>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,176C384,203,480,213,576,192C672,171,768,117,864,101.3C960,85,1056,107,1152,106.7C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <section class="icons">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"><div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/>
+          </svg></div>
+          <div class="col-md-4"><div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"/>
+          </svg></div>
+          <div class="col-md-4"><div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-3-circle" viewBox="0 0 16 16">
+            <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z"/>
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+          </svg></div>
+        </div>
+      </div>
+    </section>
   </header>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
